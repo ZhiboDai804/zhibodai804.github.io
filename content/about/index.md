@@ -25,7 +25,7 @@ Prior to this, I earned my undergraduate degree in **Engineering Science at Oxfo
 For collaborations or research discussions, feel free to reach out at:  
 📩 **Email:** [zhibodaiATstanfordDOTedu](mailto:zhibodai@stanford.edu)
 
-[![GitHub](https://img.shields.io/badge/GitHub-000?style=flat&logo=github)](https://github.com/ZhiboDai804) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/zhibo-dai-8070b3165/) [![Bilibili](https://img.shields.io/badge/Bilibili-00A1D6?style=flat&logo=bilibili)](https://space.bilibili.com/35115646?spm_id_from=333.1007.0.0) [![知乎](https://img.shields.io/badge/知乎-0066FF?style=flat&logo=zhihu)](YOUR_ZHIHU_LINK)
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=8muxXkIAAAAJ&hl=en) [![GitHub](https://img.shields.io/badge/GitHub-000?style=flat&logo=github)](https://github.com/ZhiboDai804) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/zhibo-dai-8070b3165/) [![Bilibili](https://img.shields.io/badge/Bilibili-00A1D6?style=flat&logo=bilibili)](https://space.bilibili.com/35115646?spm_id_from=333.1007.0.0) [![知乎](https://img.shields.io/badge/知乎-0066FF?style=flat&logo=zhihu)](YOUR_ZHIHU_LINK)
 
 ---
 🚧 *This webpage is still under construction... Stay tuned!*

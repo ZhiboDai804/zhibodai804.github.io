@@ -33,21 +33,4 @@
 
 </section>
 
-<section class="works" id="works">
-
-    <div class="section-title">{{ index $.Site.Data.l10n "works" }}</div>
-
-    <div class="works-list">
-        {{ range .Site.Data.works.works }}
-        <div class="works-item">
-            <div class="works-title">
-                <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
-                <p>{{ .desc }}</p>
-            </div>
-        </div>
-        {{ end }}
-    </div>
-
-</section>
-
 {{ end }}
