@@ -84,8 +84,14 @@ h2 {
 
 @media (max-width: 720px) {
     .about-content {
+        min-height: 118px;
+
         .about-profile-photo {
-            display: none;
+            display: block;
+            top: -0.75rem;
+            right: 0;
+            width: 96px;
+            height: 96px;
         }
     }
 }
