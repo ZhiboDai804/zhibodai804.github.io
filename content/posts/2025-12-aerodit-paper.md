@@ -1,5 +1,5 @@
 +++
-title = "AeroDiT Paper Accepeted by PoF"
+title = "AeroDiT Paper Accepeted by Physics of Fluids"
 date = 2025-12-17
 author = "Zhibo Dai"
 draft = false
