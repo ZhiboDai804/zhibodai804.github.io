@@ -1,4 +1,7 @@
 {{ define "main" }}
 <h1>{{ index $.Site.Data.l10n "about" }}</h1>
-{{ .Content }}
+<div class="about-content">
+    <img src="/assets/imgs/profile.jpg" data-photo-srcs="/assets/imgs/profile.jpg,/assets/imgs/profile-alt.jpg,/assets/imgs/profile-fun.jpg" alt="Zhibo Dai" class="about-profile-photo" loading="lazy">
+    {{ .Content }}
+</div>
 {{ end }}

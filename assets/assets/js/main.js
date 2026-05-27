@@ -3,11 +3,22 @@ console.log('%cVortisil (https://github.com/khitezza/vortisil)', 'font-style: it
 document.addEventListener('DOMContentLoaded', function () {
   const navbarBurger = document.getElementById('navbar-burger');
   const navbarMenu = document.getElementById('navbar-menu');
+  const profilePhoto = document.querySelector('.about-profile-photo');
 
   navbarBurger.addEventListener('click', function () {
     navbarBurger.classList.toggle('active');
     navbarMenu.classList.toggle('active');
   });
+
+  if (profilePhoto) {
+    const photoSrcs = profilePhoto.dataset.photoSrcs.split(',');
+    let activePhotoIndex = 0;
+
+    profilePhoto.addEventListener('click', function () {
+      activePhotoIndex = (activePhotoIndex + 1) % photoSrcs.length;
+      profilePhoto.src = photoSrcs[activePhotoIndex];
+    });
+  }
 });
 
 scrollToTop = function () {

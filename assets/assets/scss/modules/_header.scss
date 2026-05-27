@@ -79,14 +79,32 @@
 
 .theme-toggle {
     margin: auto 0 auto 2rem;
-    font-size: 1rem;
-    text-align: center;
-    font-weight: bold;
 
-    &>div {
+    &>button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        padding: 0;
+        color: var(--color-primary);
+        background: transparent;
+        border: 0;
         cursor: pointer;
-        line-height: 30px;
-        padding-bottom: 2px;
+
+        &:hover {
+            color: var(--color-text);
+        }
+    }
+
+    .theme-icon {
+        width: 18px;
+        height: 18px;
+        fill: none;
+        stroke: currentColor;
+        stroke-width: 1.8;
+        stroke-linecap: round;
+        stroke-linejoin: round;
     }
 }
 

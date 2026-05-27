@@ -49,6 +49,46 @@ h2 {
     }
 }
 
+.songti-name {
+    font-family: FangSong, STFangsong, "FangSong_GB2312", SimSun, serif;
+    font-weight: 400;
+}
+
+.about-content {
+    position: relative;
+
+    .about-profile-photo {
+        position: absolute;
+        top: -3.25rem;
+        right: 0;
+        width: 160px;
+        height: 160px;
+        border-radius: 0;
+        object-fit: cover;
+        object-position: 54% 34%;
+        box-shadow: 0 0 0 1px var(--color-line);
+        cursor: pointer;
+        transition: opacity 0.2s ease;
+
+        &:hover {
+            opacity: 0.88;
+        }
+    }
+
+    p {
+        text-align: justify;
+        text-justify: inter-word;
+        text-align-last: left;
+    }
+}
+
+@media (max-width: 720px) {
+    .about-content {
+        .about-profile-photo {
+            display: none;
+        }
+    }
+}
 
 a {
     text-decoration: none;

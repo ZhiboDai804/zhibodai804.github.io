@@ -38,6 +38,10 @@ disableKinds = ["taxonomy","term"] # DO NOT MODIFY
         min = "0.116.0"
 
 [markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+
     [markup.highlight]
         style = "evergarden"
         tabWidth = 4
